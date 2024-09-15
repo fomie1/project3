@@ -53,10 +53,10 @@
   </section>
 
   <section class="create-todo">
-    <h3>CREATE A TO DO LIST</h3>
+    <h3>CONTACT LIST PROJECT</h3>
     <form @submit.prevent = "addTodo">
-      <h4>That's on your to do list</h4>
-      <input type="text" placeholder="e.g., Make a Video" v-model="input_content"/>
+      <h4>Choose personal or business phone number</h4>
+      <input type="text" placeholder="e.g., Barack Obama 956-867-5309" v-model="input_content"/>
 
 
      <h4>Pick a Category</h4>
@@ -72,7 +72,7 @@
         <div>Personal</div>
       </label>
     </div>
-    <input type="submit" value="Add To Do"/>
+    <input type="submit" value="Add To Your Contact List"/>
   </form>
 
   </section>
